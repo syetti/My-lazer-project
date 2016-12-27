@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://laser.tscn" type="PackedScene" id=2]
+
+[node name="Control" type="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 40.0
+margin/top = 40.0
+margin/right = 80.0
+margin/bottom = 80.0
+script/script = ExtResource( 1 )
+lazer_scene = ExtResource( 2 )
+
+[node name="Position2D" type="Position2D" parent="."]
+
+transform/pos = Vector2( -30, -30 )
+
+[node name="RayCast2D" parent="Position2D" instance=ExtResource( 2 )]
+
+visibility/visible = false
+
+
