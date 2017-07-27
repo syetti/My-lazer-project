@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource type="PackedScene" path="res://HEllosir.tscn" id=1]
+
+
+[node  name="main" type="Control"]
+
+focus_ignore_mouse=false
+focus_stop_mouse=true
+size_flags_horizontal=2
+size_flags_vertical=2
+margin_left=0.0
+margin_top=0.0
+margin_right=40.0
+margin_bottom=40.0
+
+[node  name="Node2D" parent="." instance=ExtResource(1)]
+

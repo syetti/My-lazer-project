@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource type="Script" path="res://Health.gd" id=1]
+
+[ext_resource type="Texture" path="res://Health/Health.png" id=2]
+
+
+[node  name="Node2D" type="Node2D"]
+
+editor/display_folded=true
+position=Vector2( 66.6586, 48.9736 )
+script=ExtResource(1)
+
+[node  name="Health 1" parent="." type="Sprite"]
+
+position=Vector2( 53.6018, 0.870776 )
+scale=Vector2( 1.00434, 0.997407 )
+texture=ExtResource(2)
+
+[node  name="Health 2" parent="." type="Sprite"]
+
+position=Vector2( 23.3414, 1.02637 )
+texture=ExtResource(2)
+
+[node  name="Health 3" parent="." type="Sprite"]
+
+position=Vector2( -6.65857, 1.02637 )
+texture=ExtResource(2)
+
+[node  name="Health 4" parent="." type="Sprite"]
+
+position=Vector2( -36.6586, 1.02637 )
+texture=ExtResource(2)

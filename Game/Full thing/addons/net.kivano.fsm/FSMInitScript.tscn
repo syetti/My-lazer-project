@@ -1,0 +1,8 @@
+[gd_scene load_steps=1 format=2]
+
+[ext_resource type="Script" path="res://addons/FSM/FSMInitScript.gd" id=1]
+
+
+[node  name="EditorPlugin" type="EditorPlugin"]
+
+script=ExtResource(1)
